@@ -184,7 +184,7 @@ bool Arena::addPlayer(int r, int c)
 
 void Arena::damageRobotAt(int r, int c) ////////////////////TO DO///////////////
 {
-    // TODO:  Damage one robot at row r, column c if at least one is there.
+    //Damage one robot at row r, column c if at least one is there.
     // If the robot does not survive the damage, destroy it.
         for(int i=0; i<m_nRobots; i++){
             Robot *temp = m_robots[i];
@@ -208,7 +208,7 @@ void Arena::damageRobotAt(int r, int c) ////////////////////TO DO///////////////
 
 bool Arena::moveRobots()
 {
-    // TODO:  Have the k-th robot in the arena make one move.
+    // Have the k-th robot in the arena make one move.
     //        If that move results in that robot being in the same
     //        position as the player, the player dies.
     for (int k = 0; k < m_nRobots; k++)
